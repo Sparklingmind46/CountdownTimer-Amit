@@ -107,12 +107,9 @@ async def callback_query(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/teletipsofficialchannel'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/teIetips')
+                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/Amit_4626'),
+                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/Amit_4626')
             ],
-            [
-                InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
-            ]
         ]
         reply_markup = InlineKeyboardMarkup(TELETIPS_START_BUTTONS)
         try:
